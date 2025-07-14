@@ -1,0 +1,86 @@
+[
+    {
+        "id": "eada2665-9c0c-4aa5-94dd-0fe727b8c5bc",
+        "username": "shodiyor",
+        "section": "admin",
+        "password": "$2b$12$pT.aJGDmnTi5W33jnX/gM.QTZFWOQcwsBCsRhJVpflfZEMI5oOVJi"
+    },
+    {
+        "id": "b86014dd-c16b-4855-8d08-b41b72ebb01c",
+        "username": "abdullah",
+        "section": "guest",
+        "password": "$2b$12$EWJy/k324lvMZTdaOEYck.Vf9Jl8tXpuDP2OAyKtEyQxxWOUYDe0a"
+    },
+    {
+        "id": "7a48472d-47bf-4925-bdc0-9f65cdc4e08f",
+        "username": "shodik",
+        "section": "guest",
+        "password": "$2b$12$ANfQTa47XMfWXYmh.ZX5duUhdxVWeunD0ZQrL4FIxe8V9JBpA9KhG"
+    },
+    {
+        "id": "e80bac63-bc9a-4a12-a68d-ca87c2c7e444",
+        "username": "john",
+        "section": "guest",
+        "password": "$2b$12$3pbPeWaPuHPy54A6SprNU.eoOp0y0AcH7t6owkhHGbJOxZ/rBOugW"
+    },
+    {
+        "id": "4a703544-fc34-411d-8999-8ff0655aa0c0",
+        "username": "ismet",
+        "section": "guest",
+        "password": "$2b$12$mPTDlUz509.1xMZaRlG8bukuIbc55AU7G5Y5/E9E2Q3u3oE4b0l.y"
+    },
+    {
+        "id": "7a038058-2831-47ca-8b51-e6dc86fec871",
+        "username": "kamola",
+        "section": "guest",
+        "password": "$2b$12$H9XYb1C.OMY5FoXxU8SfU.ryxUi2WtkqqO1i27GTkeKhfi9vAAwZK"
+    },
+    {
+        "id": "b9d211c5-3172-48a6-a6af-3279debe1b45",
+        "username": "isfandiyor",
+        "section": "guest",
+        "password": "$2b$12$oZ5Mbx6hx5SnjWBILuLduecmfZlO5BN6q1uF9B6l16eX03zVNgl7e"
+    },
+    {
+        "id": "73fb5ce9-15da-4a60-9b28-bfd671960388",
+        "username": "isfanLalaku",
+        "section": "guest",
+        "password": "$2b$12$0JjLW7jMulA8Qwnu55Vfm.WSrZ2FuV8Hv58VnBCB7QfiqRr9S20OC"
+    },
+    {
+        "id": "b1921600-4213-41a5-8832-119136b9e911",
+        "username": "abdullah",
+        "section": "guest",
+        "password": "$2b$12$jWz4ypnMhWHIsKLXiCq/SOA4i19WpEYAvo806KIh9AHnY1gxyFHye"
+    },
+    {
+        "id": "b1e7336f-f727-4171-8665-9d9dc0d45e5d",
+        "username": "shodiyor",
+        "section": "guest",
+        "password": "$2b$12$/4ZGLZ1pJaXY3/hT62xAjevrFMfQLyaoGZ6iH4gHuUa2BpUG0AZki"
+    },
+    {
+        "id": "558cb5de-5816-48b4-9343-ca1a4be7046f",
+        "username": "shodik",
+        "section": "admin",
+        "password": "$2b$12$qRYP0Yzlus5.cti9lVgXn.ct/kUwG7k1hN7vcvHulwsPPA2KKJjmW"
+    },
+    {
+        "id": "a09936fc-d3e4-4c59-bdb7-4a38a44c2b8f",
+        "username": "shodiyor",
+        "section": "guest",
+        "password": "$2b$12$2a5irJtT90Z0hbMDj9aTw.MsG.by8.jej0eyoY39nzE.pnVfV2FdC"
+    },
+    {
+        "id": "919111a4-ccf6-4f0f-9264-c3070b485ce7",
+        "username": "shodiyor",
+        "section": "guest",
+        "password": "$2b$12$ZaCkBkHZrBgshNO599e.U.Y0RTylvnv1fcW3wIorGRJO7eoxuvrmO"
+    },
+    {
+        "id": "37db4f75-972c-4286-9d22-558b7eeb2195",
+        "username": "asil",
+        "section": "guest",
+        "password": "$2b$12$UQYSihzblhCCNEvcRta.weg34rWIAOBrzdbGQlriFCiOJuymvHfDu"
+    }
+]

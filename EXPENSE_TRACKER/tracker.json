@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "description": "Buy",
+        "amount": "20",
+        "created_at": "2024-09-10",
+        "updated_at": "2024-09-10"
+    },
+    {
+        "id": 2,
+        "description": "Buy Notcoin",
+        "amount": "40",
+        "created_at": "2024-09-10",
+        "updated_at": "2024-09-11"
+    },
+    {
+        "id": 3,
+        "description": "Buy something",
+        "amount": "40",
+        "created_at": "2024-09-10",
+        "updated_at": "2024-09-10"
+    },
+    {
+        "id": 4,
+        "description": "Notcoin",
+        "amount": "90",
+        "created_at": "2024-09-11",
+        "updated_at": "2024-09-11"
+    },
+    {
+        "id": 6,
+        "description": "Dogiators",
+        "amount": "45",
+        "created_at": "2024-09-11",
+        "updated_at": "2024-09-11"
+    },
+    {
+        "id": 7,
+        "description": "Buy moloko",
+        "amount": "2.3",
+        "created_at": "2024-09-12",
+        "updated_at": "2024-09-12"
+    },
+    {
+        "id": 8,
+        "description": "Buy moloko",
+        "amount": "2.9",
+        "created_at": "2024-09-12",
+        "updated_at": "2024-09-12"
+    },
+    {
+        "id": 9,
+        "description": "Buy milk",
+        "amount": "20",
+        "created_at": "2024-12-09",
+        "updated_at": "2024-12-09"
+    }
+]

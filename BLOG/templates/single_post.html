@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ post.title }}</title>
+    <link rel="stylesheet" href="/static/css/single_post.css">
+</head>
+<body>
+    <div class="post-details">
+        <h1>{{ post.title }}</h1>
+        <p><em>{{ post.publishingDate }}</em></p>
+        <div class="content">
+            <p>{{ post.content }}</p>
+        </div>
+        <a href="/posts">← Back to Posts</a>
+        <form action="/post/delete/{{ post.id }}" method="POST">
+            <button type="submit" class="delete-button">Delete Post</button>
+        </form>
+        <!-- <form action="/post/update/{{ post.id }}" method="POST">
+            <button type="submit" class="update-button">Update Post</button>
+        </form> -->
+        <a href="/post/update/{{ post.id }}" class="update-button">Update Post</a>
+    </div>
+</body>
+</html>

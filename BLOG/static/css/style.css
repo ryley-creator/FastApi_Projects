@@ -1,0 +1,87 @@
+/* Общий стиль страницы */
+* {
+    background-color: mediumaquamarine;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Заголовок */
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1.hello {
+    color: aqua;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+/* Форма входа */
+.login {
+    margin: auto; /* Центрирует форму по вертикали и горизонтали */
+    padding: 30px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: burlywood;
+    max-width: 400px; /* Ограничивает ширину формы */
+    text-align: center;
+}
+
+.login input[type="text"] {
+    width: 90%; /* Поля ввода занимают 90% ширины формы */
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login input[type="text"]::placeholder {
+    color: gray;
+    font-size: 16px;
+}
+
+.login button.btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.login button.btn:hover {
+    background-color: aqua;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Для адаптивного дизайна */
+@media (max-width: 768px) {
+    h1.hello {
+        font-size: 40px;
+    }
+
+    .login {
+        padding: 20px 10px;
+    }
+
+    .login input[type="text"] {
+        font-size: 16px;
+    }
+
+    .login button.btn {
+        font-size: 18px;
+    }
+}

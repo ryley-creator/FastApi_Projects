@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="/static/css/post.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Posts</h1>
+        <a href="http://127.0.0.1:8000/post/create">create post</a>
+    </div>
+    <div class="posts">
+        {% for post in posts %}
+        <h2>
+            <a href="http://127.0.0.1:8000/post/get/{{ post.id }}">{{ post.title }}</a>
+        </h2>
+        {% endfor %}
+    </div>
+</body>
+</html>
+

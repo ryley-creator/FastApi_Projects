@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Product</title>
+    <link rel="stylesheet" href="/static/update.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Update Product</h1>
+    </div>
+    <div class="update-form">
+        <form action="/update/{{ product.id }}" method="post">
+            <label for="product_name">Product Name:</label>
+            <input type="text" id="product_name" name="product_name" value="{{ product.product_name }}" required>
+        
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" value="{{ product.description }}" required>
+        
+            <button type="submit">Save Changes</button>
+        </form>        
+    </div>
+</body>
+</html>

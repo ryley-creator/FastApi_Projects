@@ -152,14 +152,3 @@ class TournamentResponseGet(BaseModel):
     participants: List[ParticipantResponse]
     rounds: int
     current_round: int
-
-
-
-
-    
-
-
-
-
-
-

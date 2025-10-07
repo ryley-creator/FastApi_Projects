@@ -17,3 +17,4 @@ def login(user_cred:OAuth2PasswordRequestForm = Depends(),db:Session = Depends(d
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN,detail='Password is incorrect')
     acces_token = oauth2.create_acces_token(data= {'user_id':user.id})
     return {'acces token':acces_token,'token type':'bearer'}
+
